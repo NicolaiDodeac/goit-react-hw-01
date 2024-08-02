@@ -1,0 +1,44 @@
+/* styles.module.css or styles.css */
+.list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  max-width: 150px;
+  font-family: Arial, sans-serif;
+  list-style: none;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin: 5px 0;
+  color: #333;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 18px;
+  color: #777;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

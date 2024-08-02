@@ -1,0 +1,36 @@
+/* tableStyles.module.css or tableStyles.css */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  max-width: 60%;
+  margin: 40px auto;
+}
+
+.cell {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.text {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.row:nth-child(odd) {
+  background-color: #fff;
+}
