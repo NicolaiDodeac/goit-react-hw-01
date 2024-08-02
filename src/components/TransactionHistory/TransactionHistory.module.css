@@ -1,11 +1,9 @@
-/* tableStyles.module.css or tableStyles.css */
 .table {
-  width: 100%;
+  width: calc(100% / 3);
   border-collapse: collapse;
   margin: 20px 0;
   font-family: Arial, sans-serif;
   text-align: left;
-  max-width: 60%;
   margin: 40px auto;
 }
 
@@ -15,6 +13,11 @@
   text-align: center;
   font-weight: 500;
   font-size: 24px;
+  text-transform: capitalize;
+  &:nth-child(1) {
+    text-align: left;
+    padding-left: 10%;
+  }
 }
 
 .text {
